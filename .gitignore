@@ -1,0 +1,5 @@
+node_modules/
+.DS_Store
+src/assets/
+src/images/
+src/scenes/

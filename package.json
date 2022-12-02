@@ -1,0 +1,62 @@
+{
+  "name": "feedvid-live",
+  "main": "main.js",
+  "private": true,
+  "version": "1.0.2",
+  "author": {
+    "name": "Varun Ramesh",
+    "email": "varunramesh@live.com",
+    "url": "https://varunramesh.net/"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.36",
+    "@fortawesome/free-regular-svg-icons": "^5.15.4",
+    "@fortawesome/free-solid-svg-icons": "^5.15.4",
+    "@fortawesome/react-fontawesome": "^0.1.16",
+    "deep-equal": "^2.0.1",
+    "framer-motion": "^6.5.1",
+    "howler": "^2.2.3",
+    "js-levenshtein": "^1.1.6",
+    "normalize.css": "^8.0.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "screenfull": "^5.2.0",
+    "simplex-noise": "^2.4.0",
+    "three": "^0.136.0",
+    "tween.js": "^16.6.0",
+    "velocity-animate": "^1.5.2"
+  },
+  "scripts": {
+    "test": "jest",
+    "start": "webpack serve --open --env mode=development",
+    "build": "shx rm -rf dist/ && webpack --env mode=production",
+    "format": "prettier --write *.js 'src/**/*.{js,ts,tsx,html,css}'",
+    "check-format": "prettier-check *.js 'src/**/*.{js,ts,tsx,html,css}'",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/howler": "^2.2.4",
+    "@types/jest": "^26.0.24",
+    "@types/react": "^17.0.2",
+    "@types/react-dom": "^17.0.2",
+    "@types/three": "^0.130.1",
+    "copy-webpack-plugin": "^10.2.0",
+    "css-loader": "^6.2.0",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.3.2",
+    "jest": "^27.0.6",
+    "prettier": "^1.14.3",
+    "prettier-check": "^2.0.0",
+    "sass": "^1.37.2",
+    "sass-loader": "^12.1.0",
+    "shx": "^0.3.3",
+    "style-loader": "^3.2.1",
+    "ts-jest": "^27.0.4",
+    "ts-loader": "^9.2.4",
+    "typescript": "^4.5.4",
+    "webpack": "^5.65.0",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.7.1",
+    "webpack-merge": "^5.8.0"
+  }
+}
